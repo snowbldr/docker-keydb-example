@@ -1,0 +1,16 @@
+{
+  "name": "redish-docker-keydb-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "npm i && run-keydb.sh && node redish-example.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@srfnstack/redish": "^0.3.3",
+    "redis": "^4.6.6"
+  }
+}
